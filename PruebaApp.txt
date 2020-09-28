@@ -1,0 +1,18 @@
+import {StyleSheet,Dimensions } from "react-native";
+
+
+export const BaseWidth = Dimensions.get("screen").width;
+export const BaseHeight = Dimensions.get("screen").height;
+//color #1273EB
+
+export function CalculateValue (porcentaje,value){
+
+    return value * (porcentaje/100 );
+
+}
+
+
+Gris: #efeff0
+VerdeClaro: #00dc7f
+Narajna: #ff844d
+VerdeOscuro: #006c62

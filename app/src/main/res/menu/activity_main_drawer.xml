@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="Citas apartadas" />
+        <item
+            android:id="@+id/nav_prestadores_servicios"
+            android:icon="@drawable/ic_call_center"
+            android:title="Prestadores de servicio" />
+        <item
+            android:id="@+id/nav_consultar_citas"
+            android:icon="@drawable/ic_calendar"
+            android:title="Citas disponibles" />
+        <item
+            android:id="@+id/nav_cupos"
+            android:icon="@drawable/ic_turn"
+            android:title="Consulta de cupos" />
+
+        <item
+            android:id="@+id/nav_salir"
+            android:icon="@drawable/ic_logout"
+            android:title="Salir" />
+    </group>
+</menu>
